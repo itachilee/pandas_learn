@@ -16,5 +16,12 @@ studf.loc[:, '分数'] = studf['分数'].fillna(0)
 # equals to 'studf=studf.fillna({'分数':0})'
 # 自动填充姓名列 method='ffill'
 studf.loc[:, '姓名'] = studf['姓名'].fillna(method='ffill')
+
+# ascending 上升排序
+print(studf['分数'].sort_values(ascending=False))
+
+print(
+    studf.sort_values(by=['姓名','分数'],ascending=[True,False])
+)
 # 保存文档
-studf.to_excel('data/student_clean.xlsx', index=False)
+# studf.to_excel('data/student_clean.xlsx', index=False)

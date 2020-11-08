@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62da43d-3a18-4fcb-a8ff-74492e41f6eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Charpter2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/前言 Pandas概览-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/参考答案-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/未命名-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第10章 不定期更新的例子-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第1章 Pandas基础-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第2章 索引-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第2章 索引（修订版）-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第3章 分组-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第4章 变形-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第5章 合并-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第6章 缺失数据-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第7章 文本数据-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第8章 分类数据-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anwser/第9章 时序数据-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/student.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Charpter3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/beijing_tianqi_2017-2019.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/beijing_tianqi_2018.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Charpter1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Charpter1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Charpter2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Charpter2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +43,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
@@ -85,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Charpter2">
+  <component name="RunManager" selected="Python.Charpter3">
     <configuration name="Charpter1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pandas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +117,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Charpter3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pandas" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Charpter3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pandas" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Charpter3" />
         <item itemvalue="Python.Charpter2" />
         <item itemvalue="Python.Charpter1" />
       </list>
@@ -173,7 +183,7 @@
       <workItem from="1604567144170" duration="1269000" />
       <workItem from="1604625131097" duration="8000" />
       <workItem from="1604829155578" duration="1453000" />
-      <workItem from="1604830623563" duration="798000" />
+      <workItem from="1604830623563" duration="2626000" />
     </task>
     <servers />
   </component>
@@ -194,7 +204,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pandas$Charpter2.coverage" NAME="Charpter2 Coverage Results" MODIFIED="1604831568951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pandas$Charpter2.coverage" NAME="Charpter2 Coverage Results" MODIFIED="1604832536778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pandas$Charpter3.coverage" NAME="Charpter3 Coverage Results" MODIFIED="1604833337518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandas$Charpter1.coverage" NAME="Charpter1 Coverage Results" MODIFIED="1604567670847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
