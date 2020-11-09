@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
+
 fpath = 'data/beijing_tianqi_2018.csv'
 
 df = pd.read_csv(fpath)
@@ -13,11 +15,14 @@ df['month'] = df['ymd'].str[:7]
 # 每月最高温度
 data = df.groupby('month')['bWendu'].max()
 
-data.plot()
+# data.plot()
 
-group_data = df.groupby('month').agg({'bWendu': np.max,'yWendu': np.min, 'aqi': np.mean})
+group_data = df.groupby('month').agg({'bWendu': np.max, 'yWendu': np.min, 'aqi': np.mean})
 print(
     group_data
 )
 
 group_data.plot()
+
+# 显示图像
+plt.show()

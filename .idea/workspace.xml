@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62da43d-3a18-4fcb-a8ff-74492e41f6eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +227,7 @@
       <workItem from="1604830623563" duration="5530000" />
       <workItem from="1604884904633" duration="19000" />
       <workItem from="1604886565178" duration="1251000" />
-      <workItem from="1604902585401" duration="1256000" />
+      <workItem from="1604902585401" duration="2372000" />
     </task>
     <servers />
   </component>
@@ -250,7 +251,7 @@
     <SUITE FILE_PATH="coverage/pandas$Charpter2.coverage" NAME="Charpter2 Coverage Results" MODIFIED="1604832536778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandas$Charpter3.coverage" NAME="Charpter3 Coverage Results" MODIFIED="1604833337518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandas$Charpter1.coverage" NAME="Charpter1 Coverage Results" MODIFIED="1604567670847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pandas$Chapter5.coverage" NAME="Chapter5 Coverage Results" MODIFIED="1604904023545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pandas$Chapter5.coverage" NAME="Chapter5 Coverage Results" MODIFIED="1604904946339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandas$Chapter4.coverage" NAME="Chapter4 Coverage Results" MODIFIED="1604834598912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
