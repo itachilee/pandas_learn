@@ -18,6 +18,7 @@ data = df.groupby('month')['bWendu'].max()
 # data.plot()
 
 group_data = df.groupby('month').agg({'bWendu': np.max, 'yWendu': np.min, 'aqi': np.mean})
+
 print(
     group_data
 )
